@@ -8,11 +8,20 @@
     <DtsDataSource ID="{4FB4B0C1-2666-499A-B9BC-0EAB1CE24D76}" Name="avocado_data_profile.xml">
       <DtsConnectionManagerID>avocado_data_profile.xml</DtsConnectionManagerID>
     </DtsDataSource>
+    <DtsDataSource ID="{EB12259D-9034-4A66-8C6C-A0FF337857B4}" Name="avocado_data_profile.xml 1">
+      <DtsConnectionManagerID>avocado_data_profile.xml 1</DtsConnectionManagerID>
+    </DtsDataSource>
     <DtsDataSource ID="{32D9D67D-1AFD-4E00-92BD-FE8542AE935C}" Name="LDSBC_BA280_DA_ado_net">
       <DtsConnectionManagerID>LDSBC_BA280_DA_ado_net</DtsConnectionManagerID>
     </DtsDataSource>
     <DtsDataSource ID="{4031B534-7984-4093-B85D-1F1D369283EE}" Name="LDSBC_BA280_DA_ole_db">
       <DtsConnectionManagerID>LDSBC_BA280_DA_ole_db</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{015A9461-612C-4867-B7AE-B7698752D850}" Name="t_us_state_dim.txt">
+      <DtsConnectionManagerID>t_us_state_dim.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{8A7BA767-232B-4B48-8394-C6BFC777E398}" Name="ZipLatLong.csv">
+      <DtsConnectionManagerID>ZipLatLong.csv</DtsConnectionManagerID>
     </DtsDataSource>
   </DataSources>
   <DataProfileInput>
@@ -3036,11 +3045,11 @@
         <TopRegexPatterns>
           <PatternDistributionItem>
             <RegexText>CONVENTIONAL</RegexText>
-            <Frequency>51</Frequency>
+            <Frequency>50</Frequency>
           </PatternDistributionItem>
           <PatternDistributionItem>
             <RegexText>ORGANIC</RegexText>
-            <Frequency>49</Frequency>
+            <Frequency>50</Frequency>
           </PatternDistributionItem>
         </TopRegexPatterns>
       </ColumnPatternProfile>
